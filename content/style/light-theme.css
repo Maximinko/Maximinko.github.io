@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+    transition: 1s;
+}
+.main-container , .left-btn , .right-btn {
+    background: #FFD073;
+
+}
+.main-container-reg{
+    background-color: orange;
+    transition: 1s;
+}
+
+.main-container .infa-content div p i {
+    color: #BF8F30; 
+}
+p{
+    color: rgb(114, 54, 54);
+}
+.main-container .btn-episode button{
+    color: rgb(114, 54, 54);
+  
+}

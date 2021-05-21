@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style/main-theme.css">
+    <link rel="stylesheet" href="style/dark-theme.css" id="a">
+    <!-- <link href="https://allfont.ru/allfont.css?fonts=open-sans" rel="stylesheet" type="text/css" /> font-family: 'Open Sans', arial; -->
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link href="https://allfont.ru/allfont.css?fonts=micra" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  
+   
+    <nav>
+        <div id="film" class="up-menu">
+                <div class="left-btn">
+                    <button id="main" onclick="window.location.href = 'index.html';">Главная</button>
+                   
+                </div>
+                <div class="right-btn">
+                    <div class="switch">
+                        <div class="switch-circle"></div>                         
+                    </div>
+                    <button class="settings-btn"><i class="fas fa-cog"></i></button>
+                    <input placeholder="Что мне найти?" type="search">               
+                </div>
+        </div>
+       
+    </nav>
+   
+        <!--<img class="bg-picture">-->
+    <div class="help-container">
+        <p>
+            Случайное аниме
+        </p>
+        <button id="div" class="divv" onclick="document.getElementById('demo').innerHTML = myFunction()" >Кликни</button>
+        <!-- <button onclick="document.getElementById('demo').innerHTML = getRndInteger(0,10)">Click Me</button>
+        -->
+         <p id="demo"></p>
+    </div>
+    <div class="main-container">
+        <!--<div id="nav-genres">
+            <button class="nav-btn-film" >Фильмы</button>
+            <button class="nav-btn-serial" >Сериалы</button>
+            <button class="nav-btn-anime" >Аниме</button>
+            <button class="nav-btn-latest" >Новинки</button>
+            <button class="nav-btn-preview" >Анонсы</button>  
+        </div>
+    <p><div class="line"></div></p>
+    -->
+        <div class="space"></div>
+        <div class="main-content">
+
+            <div  class="block" id="Mystic" >
+                <a href="content/Akame_ga_Kill/Akame_ga_Kill.html" style="background-image: url(Images/images-posters/Akame_ga_Kill_poster.png);"></a>
+                 <p>Убийца Акаме</p>
+                 <p>Список серий:24</p>       
+                <button onclick="window.location.href = 'content/Akame_ga_Kill/Akame_ga_Kill.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" >   
+                <a href="content/Kimetsu no Yaiba/Kimetsu no Yaiba.html"  style="background-image: url(Images/images-posters/Kimetsu\ no\ Yaiba.png);"></a>
+                 <p>Клинок рассекающий демонов</p>
+                 <p>Список серий:26</p>   
+                <button onclick="window.location.href = 'content/Kimetsu no Yaiba/Kimetsu no Yaiba.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" >   
+                <a href="content/Dororo/Dororo.html"  style="background-image: url(Images/images-posters/Dororo.png);"></a>
+                 <p>Дороро</p>
+                 <p>Список серий:24</p>     
+                <button onclick="window.location.href = 'content/Dororo/Dororo.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" >   
+                <a href="content/Grand Blue/Grand Blue.html"  style="background-image: url(Images/images-posters/Grand\ Blue\ poster.png);"></a>
+                 <p>Необъятный океан</p>
+                 <p>Список серий:12</p>     
+                <button onclick="window.location.href = 'content/Grand Blue/Grand Blue.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" >   
+                <a href="content/Cowboy Bebop/Cowboy Bebop.html"  style="background-image: url(Images/images-posters/Cowboy\ Bebop.png);"></a>
+                 <p>Ковбой Бибоп</p>
+                 <p>Список серий:26</p>     
+                <button onclick="window.location.href = 'content/Cowboy Bebop/Cowboy Bebop.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" id="serial">   
+                <a href="content/One Punch Man/One Punch Man.html"  style="background-image: url(Images/images-posters/One\ Punch\ Man\ poster.png);"></a>
+                 <p>One Punch Man</p>
+                 <p>Список серий:24</p>      
+                <button onclick="window.location.href = 'content/One Punch Man/One Punch Man.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" id="serial">   
+                <a href="content/Не готовая сраница/Не готовая сраница.html"  style="background-image: url(Images/images-posters/Death\ Note.png);"></a>
+                 <p>Тетрадь смерти</p>
+                 <p>Список серий:37</p>     
+                <button onclick="window.location.href = 'content/Не готовая сраница/Не готовая сраница.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" id="serial">   
+                <a href="content/Не готовая сраница/Не готовая сраница.html"  style="background-image: url(Images/images-posters/bleach.png);"></a>
+                 <p>Блич</p>
+                 <p>Список серий:366</p>     
+                <button onclick="window.location.href = 'content/Не готовая сраница/Не готовая сраница.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" id="serial">   
+                <a href="content/Не готовая сраница/Не готовая сраница.html"  style="background-image: url(Images/images-posters/Jujutsu\ Kaisen.png);"></a>
+                 <p>Магическая битва</p>
+                 <p>Список серий:24</p>      
+                <button onclick="window.location.href = 'content/Не готовая сраница/Не готовая сраница.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" id="serial">   
+                <a href="content/Не готовая сраница/Не готовая сраница.html"  style="background-image: url(Images/images-posters/jojo.png);"></a>
+                 <p>ДжоДЖо</p>
+                 <p>Список серий:152</p>      
+                <button onclick="window.location.href = 'content/Не готовая сраница/Не готовая сраница.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" id="serial">   
+                <a href="content/Не готовая сраница/Не готовая сраница.html"  style="background-image: url(Images/images-posters/Berserk.png);"></a>
+                 <p>Берсерк</p>
+                 <p>Список серий:49</p>    
+                <button onclick="window.location.href = 'content/Не готовая сраница/Не готовая сраница.html';">Смотреть</button><br>
+            </div>
+
+            <div  class="block" id="serial">   
+                <a href="content/Не готовая сраница/Не готовая сраница.html"  style="background-image: url(Images/images-posters/Attack\ on\ Titan.png);"></a>
+                 <p>Атака титанов</p>
+                 <p>Список серий:75</p>     
+                <button onclick="window.location.href = 'content/Не готовая сраница/Не готовая сраница.html';">Смотреть</button><br>
+            </div>
+  
+            <!--
+                 <div  class="block" id="">    --это шаблон 
+                <a href=""  style="background-image: url(Images/images-posters/);"></a>
+                 <p></p>
+                  <p>Список серий:</p>     
+                <button onclick="window.location.href = 'content/';">Смотреть</button><br>
+            </div>
+s
+            -->
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--<table>
+                    <tr>
+                        <td class="film-picture"> <img src="" alt=""> </td>
+                        <td class="film-content"></td>                
+                    </tr>
+                    <tr>
+                        <td class="film-picture"></td>
+                        <td class="film-content"></td>
+                    </tr>
+                    <tr>
+                        <td class="film-picture"></td>
+                        <td class="film-content"></td>
+                    </tr>
+                </table>-->
+
+                
+        </div>
+    
+
+        
+        
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/menu-scripts.js"></script>
+</body>
+</html>
